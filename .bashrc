@@ -116,3 +116,4 @@ fi
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
 	source /usr/share/powerline/bindings/bash/powerline.sh
 fi
+alias config='/usr/bin/git --git-dir=/home/telsak/.cfg/ --work-tree=/home/telsak'
